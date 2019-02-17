@@ -209,6 +209,18 @@ nav.browse a, nav.music a {
     padding-top: 2px;
 }
 
+@media (max-width: 992px) { 
+ .maclasse {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) { 
+ .deuxio {
+    display: none;
+  }
+}
+
 nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0px; }
 nav a.recent { background: url("../img/icon/recent.png") no-repeat 0px; }
 nav a.top { background: url("../img/icon/top.png") no-repeat 0px; }

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 	<head>
 		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
 		<title>Rdio - Luke Chesser</title>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
@@ -15,12 +16,20 @@
 						<img class="pull-left" src="img/logo.png" />
 					</div>
 
-					<form method="POST" action="index.html">
+					<form class="maclasse" method="POST" action="index.html">
 						<input type="search" required class="search">
 						<input type="submit" name="submit" value="Rechercher" class="submit">
 					</form>
+					
 					<div class="user">
-						<a href="#">Luke Chesser</a>
+						<div class="dropdown">
+							<a class="btn btn-secondary dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Luke Chesser</a>
+						</div>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+							<a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<a class="dropdown-item" href="#">Something else here</a>
+						 </div>
 					</div>
 				</div>
 			</header>
@@ -55,7 +64,10 @@
 					</aside>
 					<div class="name">
 						<h1>Luke Chesser</h1>
-						<p>Montreal, Quebec, Canada <a href="https://www.facebook.com/" target="_blank"><img class="share" src="img/icon/fb.png" /></a><a href="https://twitter.com/" target="_blank"><img class="share" src="img/icon/twitter.png" /></a></p>
+						<p>Montreal, Quebec, Canada 
+							<a class="deuxio" href="https://www.facebook.com/" target="_blank"><img class="share" src="img/icon/fb.png" /></a><a class="deuxio" href="https://twitter.com/" target="_blank"><img class="share" src="img/icon/twitter.png" />
+							</a>
+						</p>
 					</div>
 				</div>
 				<div class="stats-links">
